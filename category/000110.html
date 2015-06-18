@@ -10,10 +10,10 @@
   <link href="../assets/bs3/css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/style.css" rel="stylesheet" type="text/css" />
   <!--CSS -->
-  <link rel="stylesheet" href="http://203.77.6.36/mdnebook_css/css/animate.min.css" type="text/css">
-  <link rel="stylesheet" href="http://203.77.6.36/mdnebook_css/css/jquery.datetimepicker.css" rel="stylesheet" / >
-  <!--<link rel="stylesheet" type="text/css" href="http://203.77.6.36/mdnebook_css/css/non-responsive.css"/ >-->
-  <script type="text/javascript" src="http://203.77.6.36/mdnebook_css/js/jquery.js"></script>
+  <link rel="stylesheet" href="../css/animate.min.css" type="text/css">
+  <link rel="stylesheet" href="../css/jquery.datetimepicker.css" rel="stylesheet" / >
+  <!--<link rel="stylesheet" type="text/css" href="../css/non-responsive.css"/ >-->
+  <script type="text/javascript" src="../js/jquery.js"></script>
   </head>
 
   <body id="page-top">
@@ -23,12 +23,12 @@
       <div class="col-md-10 col-md-offset-1 topbar">
          <div id="mdnlogo"class= "col-xs-6 col-sm-4" style="padding-top: 10px"><img class="img-responsive" src="../images/mdn-logo.png" width="200"></div>
             <div id="elogo" class="col-xs-6 col-sm-4">
-            <a href="http://203.77.6.36/mdnebook_css/index.php/">
+            <a href="index.php/">
             <img class="img-responsive" src="../images/e-logo.png"></a></div>
           <div id="topbtn"class="col-xs-6 col-sm-4" style="padding-top:15px">
 
-            <a href="http://203.77.6.36/mdnebook_css/index.php/ebook/login" class="navbar-link">登入</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://203.77.6.36/mdnebook_css/index.php/ebook/register_rule" class="navbar-link">註冊</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="index.php/ebook/login" class="navbar-link">登入</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php/ebook/register_rule" class="navbar-link">註冊</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
             <a href="#" class= "navbar-link">購物車&nbsp;<span class="badge">88</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="#" class="navbar-link">BoPoMo</a>
@@ -65,40 +65,54 @@
               <div class="col-md-10 col-md-offset-1 menubg">
                 <ul class="col-md-10 col-md-offset-2 nav navbar-nav">
                     <li>
-                        <a class="page-scroll" href="http://203.77.6.36/mdnebook_css/index.php/ebook/category/000110">國語日報</a>
+                        <a class="page-scroll" href="http://ereading.mdnkids.com/l_ebook/public/category/1">國語日報</a>
                     </li>
                         <li>
                         <a class="page-scroll" data-toggle="dropdown" href="#">國語日報週刊<b class="caret"></b></a>
                         <ul class="dropdown-menu" role="menu">
-                        <li><a href="http://203.77.6.36/mdnebook_css/index.php/ebook/category/000210">初階版</a></li>
-                        <li><a href="http://203.77.6.36/mdnebook_css/index.php/ebook/category/000220">進階版</a></li>
+                        <li><a href="http://ereading.mdnkids.com/l_ebook/public/category/2">初階版</a></li>
+                        <li><a href="http://ereading.mdnkids.com/l_ebook/public/category/3">進階版</a></li>
                         </ul>
                         </li>
                     <li>
-                        <a class="page-scroll" href="http://203.77.6.36/mdnebook_css/index.php/ebook/category/000310">中學生報</a>
+                        <a class="page-scroll" href="http://ereading.mdnkids.com/l_ebook/public/category/3">中學生報</a>
                     </li>
                     <li>
                         <li>
                         <a class="page-scroll" data-toggle="dropdown" href="#">雜誌圖書<b class="caret"></b></a>
                         <ul class="dropdown-menu" role="menu">
-                        <li><a href="http://203.77.6.36/mdnebook_css/index.php/ebook/category/001098" class="page-scroll">小作家</a></li>
-                        <li><a href="http://203.77.6.36/mdnebook_css/index.php/ebook/category/000510" class="page-scroll">古今文選</a></li>
-                        <li><a href="http://203.77.6.36/mdnebook_css/index.php/ebook/category/000520" class="page-scroll">書和人</a></li>
+                        <li><a href="http://ereading.mdnkids.com/l_ebook/public/category/5" class="page-scroll">小作家</a></li>
+                        <li><a href="http://ereading.mdnkids.com/l_ebook/public/category/6" class="page-scroll">古今文選</a></li>
+                        <li><a href="http://ereading.mdnkids.com/l_ebook/public/category/7" class="page-scroll">書和人</a></li>
                         </ul>
                         </li>
                     </li>
                     <li>
-                        <a class="page-scroll" href="http://203.77.6.36/mdnebook_css/index.php/ebook/category/001097">中文一學通</a>
+                        <a class="page-scroll" href="http://ereading.mdnkids.com/l_ebook/public/category/8">中文一學通</a>
+                    </li>
+                    <li id="m-bopomo">
+                        <a class="page-scroll" href="http://ereading.mdnkids.com/l_ebook/public/read-bo-po-mo">BoPoMo</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#">Q&A</a>
                     </li>
+                    <li id="m-join">
+                        <a class="page-scroll" href="http://ereading.mdnkids.com/l_ebook/public/register_rule">註冊</a>
+                    </li>
                     <li id="m-login">
-                        <a class="page-scroll" href="http://203.77.6.36/mdnebook_css/index.php/ebook/login">登入 / 註冊</a>
+                        <a class="page-scroll" href="http://ereading.mdnkids.com/l_ebook/public/login">登入</a>
                     </li>
-                    <li id="m-bopomo">
-                        <a class="page-scroll" href="http://203.77.6.36/mdnebook_css/index.php/ebook/login">BoPoMo</a>
+                    <li id="m-car">
+                        <a class="page-scroll" href="#">購物車</a>
                     </li>
+                    <li id="m-center">
+                        <a class="page-scroll" href="#">會員中心</a>
+                    </li>
+                    <li id="m-forgot">
+                        <a class="page-scroll" href="#">忘記密碼</a>
+                    </li>
+                    
+                    
                     <!--這個是手機版語系5/25下階段再做
                     <li id="m-language">
                         <a class="page-scroll" data-toggle="dropdown" href="#">選擇語系<b class="caret"></b></a>
@@ -123,11 +137,12 @@
           <div id="blank-hegiht"></div>
 					<!-- 上半部-麵包屑-->
           <div class="breadcrumb">
-					<a href="http://203.77.6.36/mdnebook_css/index.php">首頁</a> > 
+					<a href="../index.php">首頁</a> > 
           <a href="javascript:;"><strong>國語日報( 國語日報 )</a></strong></div>
           <!-- 上半部-麵包屑END-->
 
           <div class="col-md-4 col-md-offset-1 m-main-box">
+          <img src="../images/hand-icon.png">請點選您要預覽的日期
 					<div><input type="text" id="datetimepicker3"/></div>
 					<div id="txt-box">
 					十二年國教開始，語文及寫作能力越來越重要。但閱讀力的養成要靠一點一滴的累積。
@@ -135,23 +150,23 @@
 				</div>
         <!--置入AddThis 分享社群 start-->
 				<div>
-					<img style="padding:10px 0 10px 0" src="../images/fb-icon-32.jpg">
-					<img src="../images/g-icon-32.jpg">
-					<img src="../images/tw-icon-32.jpg">
-					<img src="../images/this-icon-32.jpg">
-          <!--置入AddThis 分享社群 END-->
-					&nbsp;&nbsp;&nbsp;一年 <span class="sale-red-word">120</span>元
-				</div>
-				
+            <a href="https://www.facebook.com/sharer.php?s=100&amp;p%5Burl%5D=http%3A%2F%2Fereading.mdnkids.com%2Fl_ebook%2Fpublic%2Fcategory%2F1&amp;p%5Btitle%5D=%E5%9C%8B%E8%AA%9E%E6%97%A5%E5%A0%B1&amp;p%5Bsummary%5D=" target="_blank"><img style="padding:10px 0 10px 0" src="http://ereading.mdnkids.com/l_ebook/public/ebooks/images/fb-icon-32.jpg"></a>
+            <a href="https://plus.google.com/share?url=http%3A%2F%2Fereading.mdnkids.com%2Fl_ebook%2Fpublic%2Fcategory%2F1" target="_blank"><img src="http://ereading.mdnkids.com/l_ebook/public/ebooks/images/g-icon-32.jpg"></a>
+            <a href="https://twitter.com/intent/tweet?text=%E5%9C%8B%E8%AA%9E%E6%97%A5%E5%A0%B1&amp;url=http%3A%2F%2Fereading.mdnkids.com%2Fl_ebook%2Fpublic%2Fcategory%2F1" target="_blank"><img src="http://ereading.mdnkids.com/l_ebook/public/ebooks/images/tw-icon-32.jpg"></a>
+                        <!--置入AddThis 分享社群 END-->
+                        &nbsp;&nbsp;&nbsp;一年 USD<span class="sale-red-word">119.99</span>元
+                      </div>
+          
         <div style="padding:0 15px 15px 0;float:left"><a href="#" class="btn btn-primary btn-xl" role="button">放入購物車</a></div>
         <div style="padding:0 0 15px 0;float:left"><a href="#" class="btn btn-primary btn-xl" role="button">前往試閱</a></div>
 
 		    </div>
 		    
         <div id="books_images" class="col-md-4 m-main-box">
-						<a href="http://203.77.6.36/mdnebook_css/index.php/ebook/books/0000000240">
+						<a href="../index.php/ebook/books/0000000240">
               <img class="img-responsive blankbg" src ="../images/mdn-sample.jpg" width="300"/>
             </a>
+            <img src="../images/hand-icon.png">請點選大圖看詳細內容
 
 			</div>
       <!-- PC-AD -->
@@ -241,14 +256,14 @@
 
 
 <!-- Plugin JavaScript -->
-<script src="http://203.77.6.36/mdnebook_css/js/jquery.easing.min.js"></script>
-<script src="http://203.77.6.36/mdnebook_css/js/jquery.fittext.js"></script>
-<script src="http://203.77.6.36/mdnebook_css/js/wow.min.js"></script>
+<script src="../js/jquery.easing.min.js"></script>
+<script src="../js/jquery.fittext.js"></script>
+<script src="../js/wow.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="http://203.77.6.36/mdnebook_css/js/creative.js"></script>
+<script src="../js/creative.js"></script>
 
-<script src="http://203.77.6.36/mdnebook_css/js/jquery.datetimepicker.js"></script>
+<script src="../js/jquery.datetimepicker.js"></script>
 <!-- DATE CSS -->
 <script>/*
 window.onerror = function(errorMsg) {
@@ -263,7 +278,7 @@ window.onerror = function(errorMsg) {
 
                           var date = $input.val();
                           $.ajax({
-                            url: 'http://203.77.6.36/mdnebook_css/index.php/ebook/getPeriodImage',
+                            url: '../index.php/ebook/getPeriodImage',
                             type: 'GET',
                             data: {
                               date: date
@@ -283,16 +298,16 @@ window.onerror = function(errorMsg) {
 
 
 <!-- bootstrap 3 -->
-<script src="http://203.77.6.36/mdnebook_css/assets/bs3/js/bootstrap.min.js"></script>
+<script src="../assets/bs3/js/bootstrap.min.js"></script>
 
 <!-- Plugin JavaScript -->
-<script src="http://203.77.6.36/mdnebook_css/js/jquery.easing.min.js"></script>
-<script src="http://203.77.6.36/mdnebook_css/js/jquery.fittext.js"></script>
-<script src="http://203.77.6.36/mdnebook_css/js/wow.min.js"></script>
+<script src="../js/jquery.easing.min.js"></script>
+<script src="../js/jquery.fittext.js"></script>
+<script src="../js/wow.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="http://203.77.6.36/mdnebook_css/js/creative.js"></script>
+<script src="../js/creative.js"></script>
 
 
-<script src="http://203.77.6.36/mdnebook_css/js/jquery.datetimepicker.js"></script>  </body>
+<script src="../js/jquery.datetimepicker.js"></script>  </body>
 </html>

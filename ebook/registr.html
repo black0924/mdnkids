@@ -10,10 +10,10 @@
   <link href="../assets/bs3/css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/style.css" rel="stylesheet" type="text/css" />
   <!--CSS -->
-  <link rel="stylesheet" href="http://203.77.6.36/mdnebook_css/css/animate.min.css" type="text/css">
-  <link rel="stylesheet" href="http://203.77.6.36/mdnebook_css/css/jquery.datetimepicker.css" rel="stylesheet" / >
-  <!--<link rel="stylesheet" type="text/css" href="http://203.77.6.36/mdnebook_css/css/non-responsive.css"/ >-->
-  <script type="text/javascript" src="http://203.77.6.36/mdnebook_css/js/jquery.js"></script>
+  <link rel="stylesheet" href="../css/animate.min.css" type="text/css">
+  <link rel="stylesheet" href="../css/jquery.datetimepicker.css" rel="stylesheet" / >
+  <!--<link rel="stylesheet" type="text/css" href="../css/non-responsive.css"/ >-->
+  <script type="text/javascript" src="../js/jquery.js"></script>
   </head>
 
   <body id="page-top">
@@ -21,14 +21,14 @@
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
       <div class="col-md-10 col-md-offset-1 topbar">
-         <div id="mdnlogo"class= "col-xs-6 col-sm-4" style="padding-top: 10px"><img class="img-responsive" src="images/mdn-logo.png" width="200"></div>
+         <div id="mdnlogo"class= "col-xs-6 col-sm-4" style="padding-top: 10px"><img class="img-responsive" src="../images/mdn-logo.png" width="200"></div>
             <div id="elogo" class="col-xs-6 col-sm-4">
-            <a href="http://203.77.6.36/mdnebook_css/index.php/">
-            <img class="img-responsive" src="images/e-logo.png"></a></div>
+            <a href="index.php/">
+            <img class="img-responsive" src="../images/e-logo.png"></a></div>
           <div id="topbtn"class="col-xs-6 col-sm-4" style="padding-top:15px">
 
-            <a href="http://203.77.6.36/mdnebook_css/index.php/ebook/login" class="navbar-link">登入</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://203.77.6.36/mdnebook_css/index.php/ebook/register_rule" class="navbar-link">註冊</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="index.php/ebook/login" class="navbar-link">登入</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php/ebook/register_rule" class="navbar-link">註冊</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
             <a href="#" class= "navbar-link">購物車&nbsp;<span class="badge">88</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="#" class="navbar-link">BoPoMo</a>
@@ -65,43 +65,54 @@
               <div class="col-md-10 col-md-offset-1 menubg">
                 <ul class="col-md-10 col-md-offset-2 nav navbar-nav">
                     <li>
-                        <a class="page-scroll" href="http://203.77.6.36/mdnebook_css/index.php/ebook/category/000110">國語日報</a>
+                        <a class="page-scroll" href="http://ereading.mdnkids.com/l_ebook/public/category/1">國語日報</a>
                     </li>
                         <li>
                         <a class="page-scroll" data-toggle="dropdown" href="#">國語日報週刊<b class="caret"></b></a>
                         <ul class="dropdown-menu" role="menu">
-                        <li><a href="http://203.77.6.36/mdnebook_css/index.php/ebook/category/000210">初階版</a></li>
-                        <li><a href="http://203.77.6.36/mdnebook_css/index.php/ebook/category/000220">進階版</a></li>
+                        <li><a href="http://ereading.mdnkids.com/l_ebook/public/category/2">初階版</a></li>
+                        <li><a href="http://ereading.mdnkids.com/l_ebook/public/category/3">進階版</a></li>
                         </ul>
                         </li>
                     <li>
-                        <a class="page-scroll" href="http://203.77.6.36/mdnebook_css/index.php/ebook/category/000310">中學生報</a>
+                        <a class="page-scroll" href="http://ereading.mdnkids.com/l_ebook/public/category/3">中學生報</a>
                     </li>
                     <li>
                         <li>
                         <a class="page-scroll" data-toggle="dropdown" href="#">雜誌圖書<b class="caret"></b></a>
                         <ul class="dropdown-menu" role="menu">
-                        <li><a href="http://203.77.6.36/mdnebook_css/index.php/ebook/category/001098" class="page-scroll">小作家</a></li>
-                        <li><a href="http://203.77.6.36/mdnebook_css/index.php/ebook/category/000510" class="page-scroll">古今文選</a></li>
-                        <li><a href="http://203.77.6.36/mdnebook_css/index.php/ebook/category/000520" class="page-scroll">書和人</a></li>
+                        <li><a href="http://ereading.mdnkids.com/l_ebook/public/category/5" class="page-scroll">小作家</a></li>
+                        <li><a href="http://ereading.mdnkids.com/l_ebook/public/category/6" class="page-scroll">古今文選</a></li>
+                        <li><a href="http://ereading.mdnkids.com/l_ebook/public/category/7" class="page-scroll">書和人</a></li>
                         </ul>
                         </li>
                     </li>
                     <li>
-                        <a class="page-scroll" href="http://203.77.6.36/mdnebook_css/index.php/ebook/category/001097">中文一學通</a>
+                        <a class="page-scroll" href="http://ereading.mdnkids.com/l_ebook/public/category/8">中文一學通</a>
+                    </li>
+                    <li id="m-bopomo">
+                        <a class="page-scroll" href="http://ereading.mdnkids.com/l_ebook/public/read-bo-po-mo">BoPoMo</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#">Q&A</a>
                     </li>
+                    <li id="m-join">
+                        <a class="page-scroll" href="http://ereading.mdnkids.com/l_ebook/public/register_rule">註冊</a>
+                    </li>
+                    <li id="m-login">
+                        <a class="page-scroll" href="http://ereading.mdnkids.com/l_ebook/public/login">登入</a>
+                    </li>
                     <li id="m-car">
                         <a class="page-scroll" href="#">購物車</a>
                     </li>
-                    <li id="m-login">
-                        <a class="page-scroll" href="http://203.77.6.36/mdnebook_css/index.php/ebook/login">登入 / 註冊</a>
+                    <li id="m-center">
+                        <a class="page-scroll" href="#">會員中心</a>
                     </li>
-                    <li id="m-bopomo">
-                        <a class="page-scroll" href="http://203.77.6.36/mdnebook_css/index.php/ebook/login">BoPoMo</a>
+                    <li id="m-forgot">
+                        <a class="page-scroll" href="#">忘記密碼</a>
                     </li>
+                    
+                    
                     <!--這個是手機版語系5/25下階段再做
                     <li id="m-language">
                         <a class="page-scroll" data-toggle="dropdown" href="#">選擇語系<b class="caret"></b></a>
@@ -126,7 +137,7 @@
 
           <!-- 上半部-麵包屑-->
           <div class="breadcrumb">
-          <a href="http://203.77.6.36/mdnebook_css/index.php">首頁</a> > 
+          <a href="../index.php">首頁</a> > 
           <a href="javascript:;"><strong>註冊會員</a></strong></div>
           <!-- 上半部-麵包屑END-->
 

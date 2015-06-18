@@ -421,7 +421,7 @@ aside {
 
     /*menu顏色*/
     /*mobile顯示的選項*/
-    #m-login, #m-language, #m-car{
+    #m-login, #m-language, #m-car, #m-join, #m-center, #m-forgot{
         display: none;
     }
     .navbar-default .nav > li>a,
