@@ -50,7 +50,7 @@ p {
     width:95%;
 }
 #blank-hegiht{
-    padding-top: 13%;
+    padding-top: 15%;
 }
 
 #m-320-ad,#m-ad-150{
@@ -168,6 +168,9 @@ p {
     float: left;
 }
 
+.blank-box{
+    padding-right: 2%;
+}
 .pic-list{
     margin: 1.8%;
     width: 20%;
@@ -202,6 +205,10 @@ p {
 
 
 @media(max-width:768px) {
+
+    .blank-box{
+    padding: 6%;
+}
    .topbar {
    background-color: #FFF; 
    padding: 0px;
