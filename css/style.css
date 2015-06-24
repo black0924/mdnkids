@@ -53,7 +53,7 @@ p {
     padding-top: 13%;
 }
 
-#m-320-ad,#m-bopomo,#m-ad-150{
+#m-320-ad,#m-ad-150{
     display:none;
     }
 #tablepage{
@@ -603,7 +603,12 @@ fieldset[disabled] .btn-primary.active {
     background-color: #fff;
 }
 
-
+.btn-color {
+    border-color: #503616;
+    color: #fff;
+    background-color: #503616;
+   
+}
 
 .btn {
     border: 0;
