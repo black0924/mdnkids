@@ -310,7 +310,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
  	figure{margin:0}img{vertical-align:middle}
  	.img-responsive,.thumbnail>img,.thumbnail a>img,.carousel-inner>.item>img,.carousel-inner>.item>a>img
  	{
- 		display:block;
+ 		/*display:block;*/
  		max-width:100%;
  		height:auto
  	}
