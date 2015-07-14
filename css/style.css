@@ -1,38 +1,30 @@
-
 html,body {
     width: 100%;
     height: 100%;
     background-color: #eeeeee;
 }
-
 body {
     font-family: 'Microsoft JhengHei','微軟正黑體',Arial,sans-serif;
 }
-
 hr {
     max-width: 50px;
     /*border-color: #f05f40;*/
     border-width: 3px;
 }
-
 hr.light {
     border-color: #fff;
 }
-
 a {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
-
 a:hover,a:focus {
     color: #eb3812;
 }
-
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Microsoft JhengHei','微軟正黑體',Arial,sans-serif;
 }
-
 p {
     /*margin-bottom: 20px;*/
     font-size: 16px;
@@ -74,7 +66,6 @@ p {
 #seach-content > p{
     line-height: 1.8;
 }
-
 .line-1{
       height:1px;
    width:100%;
@@ -92,27 +83,22 @@ p {
     margin-left: auto;
     max-width: 1000px;
 }
-
-
 .brand{
     float: left;
     display: inherit;
 }
-
 .menubg {
    background-color: #503616; 
    box-shadow: 0px 0px 3px #4F4F4F; 
    -webkit-box-shadow: 0px 0px 3px #4F4F4F; 
    -moz-box-shadow: 0px 0px 3px #4F4F4F; 
 }
-
 .booklistbg {
    background-color: #fff; 
    box-shadow: 0px 0px 4px #d2d2d2; 
    -webkit-box-shadow: 0px 0px 1px #d2d2d2; 
    -moz-box-shadow: 0px 0px 1px #d2d2d2; 
 }
-
 .footerbg{
     color: #fff;
     margin:0;
@@ -126,7 +112,6 @@ p {
     line-height: 1.8;
     list-style:none;
 }
-
 .footer-2-bg{
     margin:0;
     padding: 10px;
@@ -143,7 +128,6 @@ p {
     -webkit-box-shadow: 0px 0px 3px #aaaaaa; 
     -moz-box-shadow: 0px 0px 3px #aaaaaa; 
     }
-
 .blankbg {
    background: #fff;
    padding: 3%;
@@ -220,7 +204,10 @@ p {
 
 
 @media(max-width:768px) {
-
+    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  /* color: #000; */
+  background-color: #503616;
+}
     .blank-box{
     padding: 6%;
 }
@@ -230,8 +217,9 @@ p {
    z-index: 1000;
    }
     #btn-list{
-    padding: 3% 0% 4% 25%;
-    margin: 3% 0 10% 0;
+    text-align: center;
+    padding: 3% 0% 4% 15%;
+    margin: 3% 0 15% 0;
     }
     #topbar, #topbtn, #mdnlogo,#fotter-1,#fotter-2,#fotter-3,#fotter-4,#pc-728-ad,#ad-150{
     display:none;
@@ -280,7 +268,7 @@ p {
     margin: 2%;
     }
     .menubg {
-    background-color: #ededed; 
+    /*background-color: #ededed; */
     box-shadow: 0px 0px 3px #4F4F4F; 
     -webkit-box-shadow: 0px 0px 3px #4F4F4F; 
     -moz-box-shadow: 0px 0px 3px #4F4F4F; 
@@ -293,8 +281,8 @@ p {
     }
     .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>
     .open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
-    color: #000;
-    background-color: #ececec;
+    /*color: #000;
+    background-color: #ececec;*/
     }
     .input-sm, .form-group-sm .form-control {
     height: 40px;
@@ -397,9 +385,9 @@ aside {
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 110%;
     font-weight: 700;
-    color: #444;
+    color: #fff;
 }
 
 .navbar-default .nav > li>a:hover,
@@ -420,12 +408,14 @@ aside {
 
 @media(min-width:768px) {
     .topbar {
+    height: 75px;
     background-color: #FFF; 
     padding: 5px;
     padding-top: 15px;
     box-shadow: 0px 0px 1px #4F4F4F; 
     -webkit-box-shadow: 0px 0px 1px #4F4F4F; 
     -moz-box-shadow: 0px 0px 1px #4F4F4F; 
+
     }
     /*menu-下方底線-看在加上BOX陰影*/
     .navbar-default {
